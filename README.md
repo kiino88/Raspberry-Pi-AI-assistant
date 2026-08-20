@@ -28,6 +28,10 @@ This project was built and tested on a **Raspberry Pi Zero 2W** running **Raspbe
 
 ## Setup
 
+Clone the repo:
+```bash
+git clone https://github.com/kiino88/Raspberry-Pi-AI-assistant.git voice-assistant
+```
 ```bash
 git clone https://github.com/kiino88/Raspberry-Pi-AI-assistant.git voice-assistant
 cd voice-assistnt
