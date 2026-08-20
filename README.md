@@ -32,6 +32,8 @@ This project was built and tested on a **Raspberry Pi Zero 2W** running **Raspbe
 git clone https://github.com/kiino88/Raspberry-Pi-AI-assistant.git
 cd Raspberry-Pi-AI-assistant
 sudo apt install portaudio19-dev
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 
