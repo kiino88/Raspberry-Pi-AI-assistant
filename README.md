@@ -29,7 +29,6 @@ This project was built and tested on a **Raspberry Pi Zero 2W** running **Raspbe
 ## Setup
 
 ```bash
-rm -rf voice-assistant
 git clone https://github.com/kiino88/Raspberry-Pi-AI-assistant.git voice-assistant
 cd voice-assistnt
 sudo apt install portaudio19-dev
