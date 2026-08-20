@@ -35,6 +35,7 @@ cd test-clone
 sudo apt install portaudio19-dev
 python3 -m venv venv
 source venv/bin/activate
+pip install --no-deps openwakeword==0.6.0
 pip install -r requirements.txt
 ```
 
