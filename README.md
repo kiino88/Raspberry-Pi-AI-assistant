@@ -2,6 +2,12 @@
 
 A voice assistant I built for my Raspberry Pi Zero 2W. Say "hey Jarvis" and it wakes up, listens, transcribes what you said, and talks back — all running locally on the Pi, powered by Groq's API for the heavy lifting.
 
+
+## Tested Environment
+
+This project was built and tested on a **Raspberry Pi Zero 2W** running **Raspberry Pi OS Lite (64-bit)**. It has not been tested on other hardware or operating systems — behavior may differ, especially around audio (PyAudio/portaudio) and GPIO-related dependencies.
+
+
 ## How it works
 
 1. **Wake word detection** — [openWakeWord](https://github.com/dscripka/openWakeWord) listens continuously for "hey Jarvis"
