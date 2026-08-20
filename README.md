@@ -43,16 +43,7 @@ cd voice-assistant
 ```bash
 sudo apt install portaudio19-dev
 ```
-## Python VE
 
-```bash
-python3 -m venv venv
-```
-## activate it
-
-```bash
-source venv/bin/activate
-```
 ## install wakeword and the rest of the files
 
 ```bash
