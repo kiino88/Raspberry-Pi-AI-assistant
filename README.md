@@ -47,8 +47,8 @@ sudo apt install portaudio19-dev
 ## install wakeword and the rest of the files
 
 ```bash
-pip install --no-deps openwakeword==0.6.0
-pip install -r requirements.txt
+pip install --no-deps openwakeword==0.6.0 --break-system-packages
+pip install -r requirements.txt --break-system-packages
 ```
 
 You'll need a [Groq API key](https://console.groq.com). Set it as an environment variable:
