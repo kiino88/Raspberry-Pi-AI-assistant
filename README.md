@@ -59,7 +59,7 @@ source venv/bin/activate
 pip install --no-deps openwakeword==0.6.0
 pip install -r requirements.txt
 ```
--
+
 You'll need a [Groq API key](https://console.groq.com). Set it as an environment variable:
 
 ```bash
