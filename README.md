@@ -28,14 +28,20 @@ This project was built and tested on a **Raspberry Pi Zero 2W** running **Raspbe
 
 ## Setup
 
-##Clone the repo:
+## Clone the repo:
 
 ```bash
 git clone https://github.com/kiino88/Raspberry-Pi-AI-assistant.git voice-assistant
 ```
-##Go to the directory
+## Go to the directory
+
 ```bash
-cd voice-assistnt
+cd voice-assistant
+```
+## install portAudio for mic input
+
+```bash
+sudo apt install portaudio19-dev
 ```
 ```bash
 sudo apt install portaudio19-dev
