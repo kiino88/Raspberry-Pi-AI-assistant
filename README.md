@@ -38,15 +38,24 @@ git clone https://github.com/kiino88/Raspberry-Pi-AI-assistant.git voice-assista
 ```bash
 cd voice-assistant
 ```
-## install portAudio for mic input
+## install PortAudio for mic input
 
 ```bash
 sudo apt install portaudio19-dev
 ```
+## Python VE
+
 ```bash
-sudo apt install portaudio19-dev
 python3 -m venv venv
+```
+## activate it
+
+```bash
 source venv/bin/activate
+```
+## install wakeword and the rest of the files
+
+```bash
 pip install --no-deps openwakeword==0.6.0
 pip install -r requirements.txt
 ```
