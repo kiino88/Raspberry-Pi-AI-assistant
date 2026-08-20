@@ -25,6 +25,7 @@ A voice assistant I built for my Raspberry Pi Zero 2W. Say "hey Jarvis" and it w
 ```bash
 git clone https://github.com/kiino88/Raspberry-Pi-AI-assistant.git
 cd Raspberry-Pi-AI-assistant
+sudo apt install portaudio19-dev
 pip install -r requirements.txt
 ```
 
