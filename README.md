@@ -29,9 +29,9 @@ This project was built and tested on a **Raspberry Pi Zero 2W** running **Raspbe
 ## Setup
 
 ```bash
-rm -rf test-clone
+rm -rf voice-assistant
 git clone https://github.com/kiino88/Raspberry-Pi-AI-assistant.git test-clone
-cd test-clone
+cd voice-assistnt
 sudo apt install portaudio19-dev
 python3 -m venv venv
 source venv/bin/activate
